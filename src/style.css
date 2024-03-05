@@ -19,9 +19,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: rgb(7, 47, 71);
+
 }
 
 .container {
   max-width: 800px;
   margin: 0 auto;
+  border: solid rgb(212, 143, 56) 2px;
+  background-color: rgb(7, 47, 71);
+
 }

@@ -30,6 +30,6 @@ export default {
     gap: 1em;
     width: calc(100% / 5 - $cardListGap / 5 * 4);
     text-align: center;
-    background-color: #d48f38;
+
 }
 </style>
