@@ -1,5 +1,7 @@
 <script>
 import {store } from '../store';
+import CardsNumber from './CardsNumber.vue';
+
 export default {
     name: 'CardsFilter',
     data() {
@@ -28,6 +30,8 @@ export default {
             </option>
         </select>
 
+        <CardsNumber></CardsNumber>
+
     </div>
 
 </template>
@@ -39,6 +43,10 @@ export default {
     border-bottom: 1px solid #777;
     margin-left: 12px;
     // margin-bottom: 2px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
     
     select {
         padding: 5px 10px;
