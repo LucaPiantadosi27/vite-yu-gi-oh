@@ -35,14 +35,16 @@ export default {
     background-color: rgb(253, 217, 172);
 }
 #carte span{
+  
     background-color: rgb(253, 217, 172);
     margin-left: 43%;
-
 
 }
 
 #cards-list {
-    border: solid rgb(212, 143, 56);
+    background-image: url(/img/bck-img.jpg);
+    
+    border: solid 1,2px rgb(212, 143, 56);
     display: flex;
     flex-flow: wrap;
     gap: $cardListGap;
@@ -51,6 +53,8 @@ export default {
 }
 
 #cards-list li{
+    // background-image: url(/img/bck-img.jpg);
+
     border: solid rgb(212, 143, 56);
 
 }
